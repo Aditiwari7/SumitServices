@@ -2,8 +2,8 @@ import React from "react";
 
 function about() {
   return (
-    <div className="text-center" style={{ paddingTop:80, paddingLeft:120, paddingRight:120, paddingBottom:50 }}>
-      <h1 className="text-center" style={{ fontSize: 70 }}>About Us</h1>
+    <section id="about" className="text-center" style={{ paddingTop:80, paddingLeft:120, paddingRight:120, paddingBottom:50 }}>
+      <h1 className="text-center" style={{ fontSize:70, color:"#2E4C80" }}>About Us</h1>
       <p style={{ fontSize: 16}} className="pt-3">
         Welcome&nbsp; to&nbsp; SUMMIT&nbsp; Teleservices,&nbsp; your &nbsp;
         trusted&nbsp; partner&nbsp; for&nbsp; 2G,&nbsp; 3G,&nbsp; 4G &nbsp;
@@ -65,7 +65,7 @@ function about() {
         you&nbsp; and&nbsp; serving&nbsp; you&nbsp; with&nbsp; our &nbsp;
         expertise.
       </p>
-    </div>
+    </section>
   );
 }
 
